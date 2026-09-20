@@ -20,8 +20,8 @@ def test_password_type():
         is_strong_password(1234)
 
 
-# def test_mask_password():
-#
-#     password="Password1"
-#
-#     assert mask_password(password)=="P*******1"
+def test_mask_password():
+
+    password="Password1"
+
+    assert mask_password(password)=="P*******1"
